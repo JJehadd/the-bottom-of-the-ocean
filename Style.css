@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+margin: 0;
+padding: 0;
+background-color: whitesmoke;
+}
+
+.nav, ul{
+    margin: 0;
+}
+
+.header {
+    background-color: #FCBA04;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: #250001;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+nav li{
+    display: inline;
+}
+
+.main-nav{
+    text-align: center;
+    border-bottom: 1px  solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+.name{
+    text-align: center;
+    margin: 0;
+    color: #560004;
+    font-size: 4em;
+}
+
+.section-info-header{
+    font-size: 2.5em;
+    color: #A50104;
+}
+
+.content-section{
+    margin: 1em;
+    color: #250001;
+}
+
+.content-section P{
+    color: #250001;
+}
+
+.container{
+
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.Yub-image{
+    float: left;
+    width: 100;
+    height: 100;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.dont-starve-image{
+    float: left;
+    width: 100;
+    height: 100;
+    margin: 5px;
+}
+
+.terraria-image{
+    float: left;
+    width: 100;
+    height: 100;
+    margin: 5px;
+}
+
+.footer {
+    background-color: #FCBA04;
+    color: #250001;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .25em 0;
+    align-items: center;
+}
+
+.footer-container {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: start;
+}
+
+.btn{
+    color: whitesmoke;
+    background-color: #A50104;
+    font-size: xx-large;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-property: box-shadow, transform;
+    border-radius: 25%;
+}
+
+.btn:hover, btn:focus, btn:active{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.link-container {
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 90%;
+    padding-right: 1%;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+}
+
+.section-header {
+    text-align: start;
+}
